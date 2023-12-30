@@ -1,0 +1,26 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+header {
+  background-color: #343434;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+footer {
+  padding: 20px;
+  background-color: #343434;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.MuiPopover-root .MuiMenu-list .MuiMenuItem-root:focus {
+  color: #00bbff;
+}
+@keyframes rotation {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
